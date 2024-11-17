@@ -84,6 +84,10 @@ export default defineNuxtConfig({
     }
   },
 
+  directus: {
+    url: "http://127.0.0.1:8055"
+  },
+
   nitro: {
     experimental: {
       asyncContext: true

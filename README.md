@@ -7,6 +7,10 @@
 
 不要随便升级这里的依赖例如nuxt，会导致项目无法运行。
 
+### bug
+
+目前list组件有bug，点上去之后就没法正常跳转其他页面了。
+
 
 Visit [Sakai Nuxt](https://sakai-nuxt.vercel.app) website for a live preview. 
  
@@ -81,3 +85,8 @@ $borderRadius: 12px;
 $transitionDuration: .2s;
 $maskBg: rgba(0, 0, 0, 0.4);
 ```
+
+
+E:/ProgramProjects/VScode_projects/Nuxt_Templates/who-jonson_sakai-nuxt/public/@fs/E:/ProgramProjects/VScode_projects/Nuxt_Templates/who-jonson_sakai-nuxt/node_modules/.pnpm/nuxt@3.14.159_@types+node@20.17.6_eslint@8.57.1_rollup@2.79.2_sass@1.81.0_typescript@5.6.3_vite@5.4.11/node_modules/nuxt/dist/app/entry.js
+
+E:/ProgramProjects/VScode_projects/Nuxt_Templates/who-jonson_sakai-nuxt/node_modules/.pnpm/nuxt@3.14.159_@types+node@20.17.6_eslint@8.57.1_rollup@2.79.2_sass@1.81.0_typescript@5.6.3_vite@5.4.11/node_modules/nuxt/dist/app/entry.js
