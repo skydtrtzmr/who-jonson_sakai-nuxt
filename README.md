@@ -1,5 +1,13 @@
 #  Sakai Admin Template for Nuxt 3  
 
+
+以此为基础，开发一个考试系统学生端。把nuxt3版本升级到最新小版本。
+
+## 注意
+
+不要随便升级这里的依赖例如nuxt，会导致项目无法运行。
+
+
 Visit [Sakai Nuxt](https://sakai-nuxt.vercel.app) website for a live preview. 
  
 ### Getting Started

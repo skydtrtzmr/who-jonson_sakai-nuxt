@@ -67,6 +67,7 @@ export default defineNuxtConfig({
   },
 
   modules: [
+    'nuxt-directus', // 连接 directus 后端
     'nuxt-icon',
     '@pinia/nuxt',
     '@vueuse/nuxt',
@@ -74,6 +75,14 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '~/modules/primevue'
   ],
+
+  runtimeConfig: {
+    public: {
+      directus: {
+        url: "http://127.0.0.1:8055" // 后端地址
+      }
+    }
+  },
 
   nitro: {
     experimental: {
