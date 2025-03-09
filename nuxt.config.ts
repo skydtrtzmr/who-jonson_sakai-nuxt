@@ -9,7 +9,8 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
       ],
       link: [
-        { rel: 'icon', href: '/favicon.ico' }
+        { rel: 'icon', href: '/favicon.ico' },
+        { rel: 'stylesheet', href: '/themes/tailwind-light/theme.css' } // 指定主题样式，不再切换。
       ]
     }
   },
@@ -79,13 +80,13 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       directus: {
-        url: "http://127.0.0.1:8055" // 后端地址
+        url: 'http://127.0.0.1:8055' // 后端地址
       }
     }
   },
 
   directus: {
-    url: "http://127.0.0.1:8055"
+    url: 'http://127.0.0.1:8055'
   },
 
   nitro: {
